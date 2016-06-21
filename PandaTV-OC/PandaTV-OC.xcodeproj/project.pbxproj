@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D684F161D193CE70089F028 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D684F151D193CE70089F028 /* MainViewController.m */; };
+		3D684F191D193CF50089F028 /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D684F181D193CF50089F028 /* MainView.m */; };
+		3D684F1C1D193F300089F028 /* RootView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D684F1B1D193F300089F028 /* RootView.m */; };
+		3DF8F5BB1D19270E002C2A34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF8F5BA1D19270E002C2A34 /* main.m */; };
+		3DF8F5BE1D19270E002C2A34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF8F5BD1D19270E002C2A34 /* AppDelegate.m */; };
+		3DF8F5C61D19270E002C2A34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DF8F5C51D19270E002C2A34 /* Assets.xcassets */; };
+		3DF8F5C91D19270E002C2A34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DF8F5C71D19270E002C2A34 /* LaunchScreen.storyboard */; };
+		3DF8F5D41D19270E002C2A34 /* PandaTV_OCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF8F5D31D19270E002C2A34 /* PandaTV_OCTests.m */; };
+		3DF8F5DF1D19270E002C2A34 /* PandaTV_OCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF8F5DE1D19270E002C2A34 /* PandaTV_OCUITests.m */; };
+		3DF8F6211D193892002C2A34 /* HttpManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF8F60E1D193892002C2A34 /* HttpManage.m */; };
+		3DF8F6221D193892002C2A34 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF8F6111D193892002C2A34 /* RootViewController.m */; };
+		3DF8F6231D193892002C2A34 /* NSObject+TCJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF8F6141D193892002C2A34 /* NSObject+TCJSON.m */; };
+		3DF8F6241D193892002C2A34 /* TCFMDBManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF8F6171D193892002C2A34 /* TCFMDBManage.m */; };
+		3DF8F6251D193892002C2A34 /* TCImageManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF8F6191D193892002C2A34 /* TCImageManage.m */; };
+		3DF8F6261D193892002C2A34 /* TCStringManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF8F61C1D193892002C2A34 /* TCStringManage.m */; };
+		3DF8F6271D193892002C2A34 /* UIImageView+TCImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF8F61E1D193892002C2A34 /* UIImageView+TCImage.m */; };
+		3DF8F6281D193892002C2A34 /* UINavigationController+TCLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF8F6201D193892002C2A34 /* UINavigationController+TCLibrary.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DF8F5D01D19270E002C2A34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DF8F5AE1D19270E002C2A34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DF8F5B51D19270E002C2A34;
+			remoteInfo = "PandaTV-OC";
+		};
+		3DF8F5DB1D19270E002C2A34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DF8F5AE1D19270E002C2A34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DF8F5B51D19270E002C2A34;
+			remoteInfo = "PandaTV-OC";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D684F141D193CE70089F028 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		3D684F151D193CE70089F028 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		3D684F171D193CF50089F028 /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
+		3D684F181D193CF50089F028 /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
+		3D684F1A1D193F300089F028 /* RootView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootView.h; sourceTree = "<group>"; };
+		3D684F1B1D193F300089F028 /* RootView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootView.m; sourceTree = "<group>"; };
+		3DF8F5B61D19270E002C2A34 /* PandaTV-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PandaTV-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DF8F5BA1D19270E002C2A34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3DF8F5BC1D19270E002C2A34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3DF8F5BD1D19270E002C2A34 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3DF8F5C51D19270E002C2A34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DF8F5C81D19270E002C2A34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3DF8F5CA1D19270E002C2A34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DF8F5CF1D19270E002C2A34 /* PandaTV-OCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PandaTV-OCTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DF8F5D31D19270E002C2A34 /* PandaTV_OCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PandaTV_OCTests.m; sourceTree = "<group>"; };
+		3DF8F5D51D19270E002C2A34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DF8F5DA1D19270E002C2A34 /* PandaTV-OCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PandaTV-OCUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DF8F5DE1D19270E002C2A34 /* PandaTV_OCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PandaTV_OCUITests.m; sourceTree = "<group>"; };
+		3DF8F5E01D19270E002C2A34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DF8F60C1D193892002C2A34 /* Define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
+		3DF8F60D1D193892002C2A34 /* HttpManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpManage.h; sourceTree = "<group>"; };
+		3DF8F60E1D193892002C2A34 /* HttpManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpManage.m; sourceTree = "<group>"; };
+		3DF8F60F1D193892002C2A34 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		3DF8F6101D193892002C2A34 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		3DF8F6111D193892002C2A34 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		3DF8F6131D193892002C2A34 /* NSObject+TCJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+TCJSON.h"; sourceTree = "<group>"; };
+		3DF8F6141D193892002C2A34 /* NSObject+TCJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+TCJSON.m"; sourceTree = "<group>"; };
+		3DF8F6161D193892002C2A34 /* TCFMDBManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCFMDBManage.h; sourceTree = "<group>"; };
+		3DF8F6171D193892002C2A34 /* TCFMDBManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCFMDBManage.m; sourceTree = "<group>"; };
+		3DF8F6181D193892002C2A34 /* TCImageManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCImageManage.h; sourceTree = "<group>"; };
+		3DF8F6191D193892002C2A34 /* TCImageManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCImageManage.m; sourceTree = "<group>"; };
+		3DF8F61A1D193892002C2A34 /* TCLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCLibrary.h; sourceTree = "<group>"; };
+		3DF8F61B1D193892002C2A34 /* TCStringManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCStringManage.h; sourceTree = "<group>"; };
+		3DF8F61C1D193892002C2A34 /* TCStringManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCStringManage.m; sourceTree = "<group>"; };
+		3DF8F61D1D193892002C2A34 /* UIImageView+TCImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+TCImage.h"; sourceTree = "<group>"; };
+		3DF8F61E1D193892002C2A34 /* UIImageView+TCImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+TCImage.m"; sourceTree = "<group>"; };
+		3DF8F61F1D193892002C2A34 /* UINavigationController+TCLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+TCLibrary.h"; sourceTree = "<group>"; };
+		3DF8F6201D193892002C2A34 /* UINavigationController+TCLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+TCLibrary.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DF8F5B31D19270E002C2A34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DF8F5CC1D19270E002C2A34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DF8F5D71D19270E002C2A34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D684F131D193CE70089F028 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				3D684F141D193CE70089F028 /* MainViewController.h */,
+				3D684F151D193CE70089F028 /* MainViewController.m */,
+				3D684F171D193CF50089F028 /* MainView.h */,
+				3D684F181D193CF50089F028 /* MainView.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		3DF8F5AD1D19270E002C2A34 = {
+			isa = PBXGroup;
+			children = (
+				3DF8F5B81D19270E002C2A34 /* PandaTV-OC */,
+				3DF8F5D21D19270E002C2A34 /* PandaTV-OCTests */,
+				3DF8F5DD1D19270E002C2A34 /* PandaTV-OCUITests */,
+				3DF8F5B71D19270E002C2A34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DF8F5B71D19270E002C2A34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DF8F5B61D19270E002C2A34 /* PandaTV-OC.app */,
+				3DF8F5CF1D19270E002C2A34 /* PandaTV-OCTests.xctest */,
+				3DF8F5DA1D19270E002C2A34 /* PandaTV-OCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DF8F5B81D19270E002C2A34 /* PandaTV-OC */ = {
+			isa = PBXGroup;
+			children = (
+				3DF8F6291D1938CC002C2A34 /* Modular */,
+				3DF8F60B1D193892002C2A34 /* Tools */,
+				3DF8F5BC1D19270E002C2A34 /* AppDelegate.h */,
+				3DF8F5BD1D19270E002C2A34 /* AppDelegate.m */,
+				3DF8F5C51D19270E002C2A34 /* Assets.xcassets */,
+				3DF8F5C71D19270E002C2A34 /* LaunchScreen.storyboard */,
+				3DF8F5CA1D19270E002C2A34 /* Info.plist */,
+				3DF8F5B91D19270E002C2A34 /* Supporting Files */,
+			);
+			path = "PandaTV-OC";
+			sourceTree = "<group>";
+		};
+		3DF8F5B91D19270E002C2A34 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DF8F5BA1D19270E002C2A34 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3DF8F5D21D19270E002C2A34 /* PandaTV-OCTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DF8F5D31D19270E002C2A34 /* PandaTV_OCTests.m */,
+				3DF8F5D51D19270E002C2A34 /* Info.plist */,
+			);
+			path = "PandaTV-OCTests";
+			sourceTree = "<group>";
+		};
+		3DF8F5DD1D19270E002C2A34 /* PandaTV-OCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3DF8F5DE1D19270E002C2A34 /* PandaTV_OCUITests.m */,
+				3DF8F5E01D19270E002C2A34 /* Info.plist */,
+			);
+			path = "PandaTV-OCUITests";
+			sourceTree = "<group>";
+		};
+		3DF8F60B1D193892002C2A34 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				3DF8F60C1D193892002C2A34 /* Define.h */,
+				3DF8F60D1D193892002C2A34 /* HttpManage.h */,
+				3DF8F60E1D193892002C2A34 /* HttpManage.m */,
+				3DF8F60F1D193892002C2A34 /* PrefixHeader.pch */,
+				3DF8F6101D193892002C2A34 /* RootViewController.h */,
+				3DF8F6111D193892002C2A34 /* RootViewController.m */,
+				3D684F1A1D193F300089F028 /* RootView.h */,
+				3D684F1B1D193F300089F028 /* RootView.m */,
+				3DF8F6121D193892002C2A34 /* TCLibrary */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		3DF8F6121D193892002C2A34 /* TCLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				3DF8F6131D193892002C2A34 /* NSObject+TCJSON.h */,
+				3DF8F6141D193892002C2A34 /* NSObject+TCJSON.m */,
+				3DF8F6151D193892002C2A34 /* Optional */,
+				3DF8F6181D193892002C2A34 /* TCImageManage.h */,
+				3DF8F6191D193892002C2A34 /* TCImageManage.m */,
+				3DF8F61A1D193892002C2A34 /* TCLibrary.h */,
+				3DF8F61B1D193892002C2A34 /* TCStringManage.h */,
+				3DF8F61C1D193892002C2A34 /* TCStringManage.m */,
+				3DF8F61D1D193892002C2A34 /* UIImageView+TCImage.h */,
+				3DF8F61E1D193892002C2A34 /* UIImageView+TCImage.m */,
+				3DF8F61F1D193892002C2A34 /* UINavigationController+TCLibrary.h */,
+				3DF8F6201D193892002C2A34 /* UINavigationController+TCLibrary.m */,
+			);
+			path = TCLibrary;
+			sourceTree = "<group>";
+		};
+		3DF8F6151D193892002C2A34 /* Optional */ = {
+			isa = PBXGroup;
+			children = (
+				3DF8F6161D193892002C2A34 /* TCFMDBManage.h */,
+				3DF8F6171D193892002C2A34 /* TCFMDBManage.m */,
+			);
+			path = Optional;
+			sourceTree = "<group>";
+		};
+		3DF8F6291D1938CC002C2A34 /* Modular */ = {
+			isa = PBXGroup;
+			children = (
+				3D684F131D193CE70089F028 /* Main */,
+			);
+			path = Modular;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DF8F5B51D19270E002C2A34 /* PandaTV-OC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DF8F5E31D19270E002C2A34 /* Build configuration list for PBXNativeTarget "PandaTV-OC" */;
+			buildPhases = (
+				3DF8F5B21D19270E002C2A34 /* Sources */,
+				3DF8F5B31D19270E002C2A34 /* Frameworks */,
+				3DF8F5B41D19270E002C2A34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PandaTV-OC";
+			productName = "PandaTV-OC";
+			productReference = 3DF8F5B61D19270E002C2A34 /* PandaTV-OC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DF8F5CE1D19270E002C2A34 /* PandaTV-OCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DF8F5E61D19270E002C2A34 /* Build configuration list for PBXNativeTarget "PandaTV-OCTests" */;
+			buildPhases = (
+				3DF8F5CB1D19270E002C2A34 /* Sources */,
+				3DF8F5CC1D19270E002C2A34 /* Frameworks */,
+				3DF8F5CD1D19270E002C2A34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DF8F5D11D19270E002C2A34 /* PBXTargetDependency */,
+			);
+			name = "PandaTV-OCTests";
+			productName = "PandaTV-OCTests";
+			productReference = 3DF8F5CF1D19270E002C2A34 /* PandaTV-OCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3DF8F5D91D19270E002C2A34 /* PandaTV-OCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DF8F5E91D19270E002C2A34 /* Build configuration list for PBXNativeTarget "PandaTV-OCUITests" */;
+			buildPhases = (
+				3DF8F5D61D19270E002C2A34 /* Sources */,
+				3DF8F5D71D19270E002C2A34 /* Frameworks */,
+				3DF8F5D81D19270E002C2A34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DF8F5DC1D19270E002C2A34 /* PBXTargetDependency */,
+			);
+			name = "PandaTV-OCUITests";
+			productName = "PandaTV-OCUITests";
+			productReference = 3DF8F5DA1D19270E002C2A34 /* PandaTV-OCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DF8F5AE1D19270E002C2A34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = William;
+				TargetAttributes = {
+					3DF8F5B51D19270E002C2A34 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					3DF8F5CE1D19270E002C2A34 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 3DF8F5B51D19270E002C2A34;
+					};
+					3DF8F5D91D19270E002C2A34 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 3DF8F5B51D19270E002C2A34;
+					};
+				};
+			};
+			buildConfigurationList = 3DF8F5B11D19270E002C2A34 /* Build configuration list for PBXProject "PandaTV-OC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DF8F5AD1D19270E002C2A34;
+			productRefGroup = 3DF8F5B71D19270E002C2A34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DF8F5B51D19270E002C2A34 /* PandaTV-OC */,
+				3DF8F5CE1D19270E002C2A34 /* PandaTV-OCTests */,
+				3DF8F5D91D19270E002C2A34 /* PandaTV-OCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DF8F5B41D19270E002C2A34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DF8F5C91D19270E002C2A34 /* LaunchScreen.storyboard in Resources */,
+				3DF8F5C61D19270E002C2A34 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DF8F5CD1D19270E002C2A34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DF8F5D81D19270E002C2A34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DF8F5B21D19270E002C2A34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D684F161D193CE70089F028 /* MainViewController.m in Sources */,
+				3DF8F6251D193892002C2A34 /* TCImageManage.m in Sources */,
+				3DF8F5BE1D19270E002C2A34 /* AppDelegate.m in Sources */,
+				3DF8F6261D193892002C2A34 /* TCStringManage.m in Sources */,
+				3DF8F6271D193892002C2A34 /* UIImageView+TCImage.m in Sources */,
+				3D684F191D193CF50089F028 /* MainView.m in Sources */,
+				3DF8F5BB1D19270E002C2A34 /* main.m in Sources */,
+				3DF8F6241D193892002C2A34 /* TCFMDBManage.m in Sources */,
+				3DF8F6281D193892002C2A34 /* UINavigationController+TCLibrary.m in Sources */,
+				3D684F1C1D193F300089F028 /* RootView.m in Sources */,
+				3DF8F6231D193892002C2A34 /* NSObject+TCJSON.m in Sources */,
+				3DF8F6221D193892002C2A34 /* RootViewController.m in Sources */,
+				3DF8F6211D193892002C2A34 /* HttpManage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DF8F5CB1D19270E002C2A34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DF8F5D41D19270E002C2A34 /* PandaTV_OCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DF8F5D61D19270E002C2A34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DF8F5DF1D19270E002C2A34 /* PandaTV_OCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DF8F5D11D19270E002C2A34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DF8F5B51D19270E002C2A34 /* PandaTV-OC */;
+			targetProxy = 3DF8F5D01D19270E002C2A34 /* PBXContainerItemProxy */;
+		};
+		3DF8F5DC1D19270E002C2A34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DF8F5B51D19270E002C2A34 /* PandaTV-OC */;
+			targetProxy = 3DF8F5DB1D19270E002C2A34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3DF8F5C71D19270E002C2A34 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DF8F5C81D19270E002C2A34 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DF8F5E11D19270E002C2A34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3DF8F5E21D19270E002C2A34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DF8F5E41D19270E002C2A34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "PandaTV-OC/Tools/PrefixHeader.pch";
+				INFOPLIST_FILE = "PandaTV-OC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.William.PandaTV-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3DF8F5E51D19270E002C2A34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "PandaTV-OC/Tools/PrefixHeader.pch";
+				INFOPLIST_FILE = "PandaTV-OC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.William.PandaTV-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3DF8F5E71D19270E002C2A34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "PandaTV-OCTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.William.PandaTV-OCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PandaTV-OC.app/PandaTV-OC";
+			};
+			name = Debug;
+		};
+		3DF8F5E81D19270E002C2A34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "PandaTV-OCTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.William.PandaTV-OCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PandaTV-OC.app/PandaTV-OC";
+			};
+			name = Release;
+		};
+		3DF8F5EA1D19270E002C2A34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "PandaTV-OCUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.William.PandaTV-OCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "PandaTV-OC";
+			};
+			name = Debug;
+		};
+		3DF8F5EB1D19270E002C2A34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "PandaTV-OCUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.William.PandaTV-OCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "PandaTV-OC";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DF8F5B11D19270E002C2A34 /* Build configuration list for PBXProject "PandaTV-OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DF8F5E11D19270E002C2A34 /* Debug */,
+				3DF8F5E21D19270E002C2A34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DF8F5E31D19270E002C2A34 /* Build configuration list for PBXNativeTarget "PandaTV-OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DF8F5E41D19270E002C2A34 /* Debug */,
+				3DF8F5E51D19270E002C2A34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DF8F5E61D19270E002C2A34 /* Build configuration list for PBXNativeTarget "PandaTV-OCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DF8F5E71D19270E002C2A34 /* Debug */,
+				3DF8F5E81D19270E002C2A34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DF8F5E91D19270E002C2A34 /* Build configuration list for PBXNativeTarget "PandaTV-OCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DF8F5EA1D19270E002C2A34 /* Debug */,
+				3DF8F5EB1D19270E002C2A34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DF8F5AE1D19270E002C2A34 /* Project object */;
+}
